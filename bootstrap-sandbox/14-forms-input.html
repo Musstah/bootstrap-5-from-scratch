@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <title>Bootstrap Sandbox | Forms & Input</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1 class="mb-5">Forms & Input</h1>
 
-      <!-- Basic Form -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <title>Bootstrap Sandbox | Forms & Input</title>
+</head>
 
-      <br /><br />
+<body>
+  <div class="container">
+    <h1 class="mb-5">Forms & Input</h1>
 
-      <!-- Other Fields -->
-      <form>
-        <!-- Select Fields -->
+    <!-- Basic Form -->
 
-        <!-- Textarea -->
+    <form action="">
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Adress</label>
+        <input type="email" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control">
+      </div>
+      <div class="mb-3">
+        <input type="checkbox" class="form-check-input" id="remember">
+        <label for="remember" class="form-check-label">Remember me</label>
+      </div>
+      <input type="submit" value="Login" class="btn btn-primary">
+    </form>
 
-        <!-- Switch -->
+    <br /><br />
 
-        <!-- Inline Checkboxes -->
-
-        <!-- Toggle Button -->
-
-        <!-- Range -->
-
-        <!-- Range Steps -->
+    <!-- Other Fields -->
+    <form>
+      <!-- Select Fields -->
+      <form action="">
+        <div class="mb-3">
+          <select class="form-select">
+            <option>Best time to call</option>
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+          </select>
+        </div>
       </form>
 
-      <br /><br />
+      <!-- Textarea -->
 
-      <!-- Input Groups -->
-      <form></form>
+      <!-- Switch -->
 
-      <!-- Don't go past here -->
-    </div>
-    <div style="margin-top: 350px"></div>
+      <!-- Inline Checkboxes -->
 
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-  </body>
+      <!-- Toggle Button -->
+
+      <!-- Range -->
+
+      <!-- Range Steps -->
+    </form>
+
+    <br /><br />
+
+    <!-- Input Groups -->
+    <form></form>
+
+    <!-- Don't go past here -->
+  </div>
+  <div style="margin-top: 350px"></div>
+
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
